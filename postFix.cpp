@@ -27,7 +27,7 @@ int main() {
 
     int result = postFixEvaluation(expression);
 
-    if (result != -1) {  // only prints result if there's no error
+    if (result != -1) {  // only prints result if there's no error (invalid expression)
         cout << "Result: " << result << endl;
     }
 
